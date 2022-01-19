@@ -1941,6 +1941,7 @@ b, strong, .text-strong {
 }
 #page-wrapper {
     border: 30px solid #fff;
+    border-bottom: none;
 }
 @media screen and (max-width:768px) {
   #page-wrapper {
