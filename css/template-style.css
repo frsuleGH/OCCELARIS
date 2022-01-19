@@ -2123,6 +2123,7 @@ nav {
 }
 .logo-after {
   display:none;
+  padding-bottom: 1rem;
 }
 nav.fixed, .fixed nav {
   background: #fff;
