@@ -122,13 +122,13 @@ nav {
   clear:both;
   content:".";
   display:block;
-  margin-top: 4rem;
+
   height:0;
   line-height:0;
   overflow: hidden;
   visibility:hidden;
 }
-.top-nav ul {padding:0;}
+.top-nav ul {padding:0;margin-top: 2rem;}
 .top-nav ul ul {
   position:absolute;
   background:#152732;
