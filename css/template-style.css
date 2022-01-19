@@ -2137,7 +2137,7 @@ nav.fixed .logo-before, .fixed nav .logo-before {
   display:none;
 }
 nav.fixed .logo-after, .fixed nav .logo-after {
-  display:block;
+  display:flex;
 }  
 .background-transparent {
   background: none;
