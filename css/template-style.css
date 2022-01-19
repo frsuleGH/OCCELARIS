@@ -2146,6 +2146,7 @@ nav.fixed .logo-after, .fixed nav .logo-after {
 .logo img {
   margin: 0;
   max-width: 194px;
+  margin-bottom: 2rem;
   position: relative;
   top: 15px;
   width: 100%;
