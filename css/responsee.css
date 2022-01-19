@@ -122,6 +122,7 @@ nav {
   clear:both;
   content:".";
   display:block;
+  margin-top: 2rem;
   height:0;
   line-height:0;
   overflow: hidden;
