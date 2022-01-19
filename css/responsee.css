@@ -39,7 +39,7 @@ a, a:link, a:visited, a:hover, a:active {
 }  
 a:hover {color:#B6C900;}
 p,li,dl,blockquote,table,kbd {
-  font-size: 0.85rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 b,strong {font-weight:700;}
@@ -141,7 +141,7 @@ nav {
 .top-nav li a {
   color:#fff; 
   display:block;
-  font-size:1rem;
+  font-size: 2rem;
   padding:1.25rem; 
 }
 .top-nav li ul li a {
