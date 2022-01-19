@@ -313,7 +313,7 @@ video {
 /* Top Nav */
 .top-nav li a, .background-white .top-nav li a {
   color: #002633;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   padding: 0.7em 1.25em;
 }
 nav {
@@ -2113,7 +2113,6 @@ header.position-absolute {
   width: 100%;
   z-index: 10;
 }
-
 
 nav {
   border-bottom: 0;
