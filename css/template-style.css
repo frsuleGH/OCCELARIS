@@ -60,11 +60,11 @@ h6.headline, .h6.headline {
   letter-spacing: -1.3px;
 }
 .text-size-12, .text-l-size-12 {
-  font-size: 12px !important;
+  font-size: 18px !important;
   line-height: 1.4;
 }
 .text-size-16, .text-l-size-16 {
-  font-size: 16px !important;
+  font-size: 20px !important;
   line-height: 1.4;
 }
 .text-size-20, .text-l-size-20 {
