@@ -926,3 +926,22 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   margin:0 auto;
   display:block;
 }
+
+.boton {
+  background-color:#434343;
+  padding: .5rem .5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  display: block;
+  max-width: 40rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  width: 90%;
+  text-align: center;
+  border: none;
+}
+.boton p{ color:#f58634;}
+.boton:hover{cursor: pointer;}
