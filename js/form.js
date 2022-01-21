@@ -15,7 +15,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     resp.classList.remove("send");
   
     let url = `https://api.whatsapp.com/send?phone=543425336098&text=
-         
+
           ${cliente}%0A
          
           ${fecha}%0A
