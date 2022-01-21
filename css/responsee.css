@@ -928,7 +928,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 }
 
 .boton {
-  background-color:#434343;
+  background-color:#f58634;;
   padding: .5rem .5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -943,5 +943,5 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   text-align: center;
   border: none;
 }
-.boton p{ color:#f58634;}
+.boton p{ color:#000000;}
 .boton:hover{cursor: pointer;}
