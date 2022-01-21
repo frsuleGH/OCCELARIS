@@ -247,7 +247,7 @@
       />
 
       <label for="fecha" class="formulario__label"
-        >Indica la fecha de tu reserva</label
+        >Indica la fecha de retiro</label
       >
       <input
         id="fecha"
@@ -257,27 +257,30 @@
       />
 
       <label for="hora" class="formulario__label"
-        >Indica la hora de tu reserva</label
+        >Indica la hora de retiro</label
       >
       <input id="hora" type="time" class="formulario__input" />
 
       <label for="empleado" class="formulario__label"
-        >EMPLEADO de preferencia</label
+        >Producto a Pedir</label
       >
       <select id="empleado" name="listaempleados" class="formulario__input">
-        <option>EMPLEADO 1</option>
-        <option>EMPLEADO 2</option>
+        <option  disabled="" selected="">Producto</option>
+        <option>Barco $800</option>
+        <option>Alga $200</option>
+        <option>Coral $2.000</option>
       </select>
 
       <label for="servicio" class="formulario__label"
         >¿Cuál es el servicio que se desea realizar?</label
       >
       <select id="servicio" name="listaservicios" class="formulario__input">
-        <option>SERVICIO 1 - $VALOR</option>
-        <option>SERVICIO 2 - $VALOR</option>
-        <option>SERVICIO 3 - $VALOR</option>
-        <option>SERVICIO 4 - $VALOR</option>
-        <option>SERVICIO 5 - $VALOR</option>
+        <option  disabled="" selected="">Metodo de Pago</option>
+        <option>Mercado Pago</option>
+        <option>Transferencia Bancaria</option>
+        <option>Tarjeta de Credito</option>
+        <option>Tarjeta de Devito</option>
+        <option>Efectivo</option>
       </select>
 
       <div id="respuesta"></div>
