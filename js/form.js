@@ -15,8 +15,6 @@ document.querySelector("#submit").addEventListener("click", e => {
     resp.classList.remove("send");
   
     let url = `https://wa.me/send?phone=${telefono}&text=
-          
-        
           ${cliente}%0A
           *Indica la fecha de retiro:*%0A
           ${fecha}%0A
