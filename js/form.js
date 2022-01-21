@@ -19,13 +19,13 @@ document.querySelector("#submit").addEventListener("click", e => {
           *%0A%0A
           *¿Cuál es tu nombre?*%0A
           ${cliente}%0A
-          *Indica la fecha de de tu pedido*%0A
+          *Fecha de de tu pedido*%0A
           ${fecha}%0A
-          *Indica la hora de retiro de tu pedido*%0A
+          *Hora de retiro de tu pedido*%0A
           ${hora}%0A
           *Producto*%0A
           ${empleado}%0A
-          *¿Cuál es el metodo de pago que se desea realizar?*%0A
+          *Metodo de pago que se desea realizar*%0A
           ${servicio}`;
   
     if (cliente === "" || fecha === "" || hora === "") {
