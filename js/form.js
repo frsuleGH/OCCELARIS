@@ -14,7 +14,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     resp.classList.remove("fail");
     resp.classList.remove("send");
   
-    let url = `https://wa.me/send?phone=${telefono}&text=
+    let url = `https://wa.me/send?phone=5403425336098&text=
           
           *%0A%0A
           ¿Cuál es tu nombre?*%0A
