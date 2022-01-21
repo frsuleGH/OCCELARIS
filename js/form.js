@@ -24,7 +24,7 @@ document.querySelector("#submit").addEventListener("click", e => {
           ${hora}%0A
           *Producto:*%0A
           ${empleado}%0A
-          *¿Cuál es el metodo de pago que se desea realizar?*%0A
+          *¿Cuál es el metodo de pago?*%0A
           ${servicio}`;
   
     if (cliente === "" || fecha === "" || hora === "") {
