@@ -10,9 +10,11 @@
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
     position: relative;
     background: rgba(255, 255, 255, 0.97);
+    border-radius: 1rem;
   }
   .formulario input{text-transform: uppercase;}
  
+  
   
   .formulario__titulo,
   .formulario__subtitulo,
