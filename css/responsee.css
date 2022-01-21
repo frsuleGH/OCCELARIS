@@ -929,12 +929,11 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 
 .boton {
   background-color:#f58634;;
-  padding: .5rem .5rem;
+  padding: 10px 15px;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 2rem;
   display: block;
-  max-width: 40rem;
+  max-width: 300px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
