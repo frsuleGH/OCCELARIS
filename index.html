@@ -231,25 +231,61 @@
         </article>
         <p class="text-white text-size-20  text-center text-dark">Hacer pedido por whatsapp y acordar forma de pago por el mismo</p>
 <img class="center" src="img/cupones-argentina.jpg">
-<form action="#" class="formulario ">
-  <input id="cliente" type="text" class="formulario__input" placeholder="nombre y apellido" required>
-  <select class="formulario__campo">
-    <option class="formulario__option" disabled="" selected="">PRODUCTO</option>
+
+<form action="" class="formulario">
+  
+  <h3 class="formulario__subtitulo">Pedido</h3>
+  <p class="formulario__parrafo">
+    Llena este pequeño formulario para agendar tu cita en MI NEGOCIO.
+  </p>
+
+  <label for="cliente" class="formulario__label">¿Cuál es tu nombre y apellido?</label>
+  <input
+    id="cliente"
+    type="text"
+    class="formulario__input"
+    placeholder="Indica cuál es tu nombre completo"
+  />
+
+  
+
+  
+
+  <label for="empleado" class="formulario__label"
+    >Producto</label
+  >
+  <select id="empleado" name="listaempleados" class="formulario__input">
     <option>Barco $800</option>
     <option>Alga $200</option>
     <option>Coral $2.000</option>
-</select>
+  </select>
 
-<select class="formulario__campo">
-  <option class="formulario__option" disabled="" selected="">PAGO</option>
-  <option>Mercado Pago</option>
-  <option>Tarjeta Credito/Debito</option>
-  <option>Transferencia Bancaria</option>
-  <option>Efectivo</option>
-</select>
+  <label for="servicio" class="formulario__label"
+    >¿Cuál es la forma de Pago que se desea realizar?</label
+  >
+  <select id="servicio" name="listaservicios" class="formulario__input">
+    <option>Mercado Pago</option>
+    <option>Transferencia Bancaria</option>
+    <option>Tarjeta de Credito</option>
+    <option>Tarjeta de Debito</option>
+    <option>Efectivo</option>
+  </select>
 
+  <div id="respuesta"></div>
+
+  <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
 </form>
-<a target="_blank" class="boton center" href="https://api.whatsapp.com/send?phone=543424067600"><p class="text-size-25">Hacer Pedido</p></a>
+
+
+ 
+
+  
+  
+
+  
+
+  
+
 
       </main>
       
