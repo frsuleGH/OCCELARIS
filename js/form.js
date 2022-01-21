@@ -14,7 +14,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     resp.classList.remove("fail");
     resp.classList.remove("send");
   
-    let url = `https://wa.me/send?phone=+5403425336098&text=
+    let url = `https://wa.me/send?phone=${telefono}&text=
           
           *%0A%0A
           ¿Cuál es tu nombre?*%0A
@@ -25,7 +25,7 @@ document.querySelector("#submit").addEventListener("click", e => {
           ${hora}%0A
           Empleado de preferencia*%0A
           ${empleado}%0A
-          ¿Cuál es el metodo de pago que se desea realizar?*%0A
+          *¿Cuál es el metodo de pago que se desea realizar?*%0A
           ${servicio}`;
   
     if (cliente === "" || fecha === "" || hora === "") {
