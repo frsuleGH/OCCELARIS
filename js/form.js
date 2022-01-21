@@ -8,7 +8,6 @@ document.querySelector("#submit").addEventListener("click", e => {
     let fecha = document.querySelector("#fecha").value;
     let hora = document.querySelector("#hora").value;
     let empleado = document.querySelector("#empleado").value;
-    let servicio = document.querySelector("#servicio").value;
     let resp = document.querySelector("#respuesta");
   
     resp.classList.remove("fail");
@@ -16,13 +15,13 @@ document.querySelector("#submit").addEventListener("click", e => {
   
     let url = `https://api.whatsapp.com/send?phone=543425336098&text=
 
-          ${cliente}%0A
+          ${cliente}
          
-          ${fecha}%0A
+          ${fecha}
           
-          ${hora}%0A
+          ${hora}
           
-          ${empleado}%0A
+          ${empleado}
           Nos comunicaremos a la brevedad*%0A
           `;
   
