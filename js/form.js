@@ -15,15 +15,17 @@ document.querySelector("#submit").addEventListener("click", e => {
     resp.classList.remove("send");
   
     let url = `https://wa.me/send?phone=${telefono}&text=
-    
+          
+          *%0A%0A
+          ¿Cuál es tu nombre?*%0A
           ${cliente}%0A
-          *Indica la fecha de retiro:*%0A
+          Indica la fecha de retiro de tu pedido*%0A
           ${fecha}%0A
-          *Indica la hora de retiro:*%0A
+          Indica la hora de retiro de tu pedido*%0A
           ${hora}%0A
-          *Producto:*%0A
+          Empleado de preferencia*%0A
           ${empleado}%0A
-          *¿Cuál es el metodo de pago?*%0A
+          ¿Cuál es el metodo de pago que se desea realizar?*%0A
           ${servicio}`;
   
     if (cliente === "" || fecha === "" || hora === "") {
