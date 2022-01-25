@@ -963,7 +963,9 @@ font-weight: 500;}
 .filtro a{
   font-weight: bold;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
   font-family: sans-serif;
+  
 }
 
 @media (min-width: 992px) {
