@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function iniciarApp(){
     scrollNav();
-    navegacionFija();
+ 
 }
 
 
