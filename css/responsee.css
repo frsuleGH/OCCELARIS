@@ -809,7 +809,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .m-12 {width:100%}
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:768px) {
   .size-960,.size-1140,.size-1280,.size-1520 {max-width:768px;}
   .aside-nav li a {text-align: center;}
   .minimize-on-small .aside-nav-text {
