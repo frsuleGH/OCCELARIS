@@ -824,33 +824,37 @@
         placeholder="Indica cuál es tu nombre completo"
       />
 
-      <label for="fecha" class="formulario__label"
-        >Indica la fecha de retiro LUNES a VIERNES</label
-      >
-      <input
-        id="fecha"
-        type="date"
-        class="formulario__input"
-        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
-      />
-
-      <label for="hora" class="formulario__label"
-        >Indica la hora de retiro 10HS a 20HS</label
-      >
-      <input id="hora" type="time" class="formulario__input" />
-
-      <label for="empleado" class="formulario__label"
-        >Producto a Pedir</label
-      >
       <select id="empleado" name="listaempleados" class="formulario__input">
         <option  disabled="" selected="">Producto</option>
         <option>Barco $800</option>
         <option>Alga $200</option>
         <option>Coral $2.000</option>
       </select>
+       <label for="fecha" class="formulario__label"
+        >Color del producto</label>
+        
+      <select id="fecha" name="listaservicios" class="formulario__input">
+        <option  disabled="" selected="">Color</option>
+        <option>Rojo</option>
+        <option>Negro</option>
+         <option>Celeste</option> 
+        <option>Naranja</option> 
+        <option>Gris</option>
+      </select>
+
+      <label for="fecha" class="formulario__label"
+      >Tamaño del producto</label
+    >
+    <select id="hora" name="listaservicios" class="formulario__input">
+      <option  disabled="" selected="">Tamaño</option>
+      <option>Chico</option>
+      <option>Mediano</option>
+       <option>Grande</option> 
+      
+    </select>
 
       <label for="servicio" class="formulario__label"
-        >¿Cuál es el servicio que se desea realizar?</label
+        >¿Cuál es el metodo de pago que se desea realizar?</label
       >
       <select id="servicio" name="listaservicios" class="formulario__input">
         <option  disabled="" selected="">Metodo de Pago</option>
